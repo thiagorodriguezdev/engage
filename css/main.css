@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 124rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.bg {
+  width: 100%;
+  height: 96.5rem;
+  background-image: url(../imgs/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.79rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease;
+}
+
+header nav ul li a:hover {
+  opacity: 0.7;
+}
+
+header nav ul li .btn-primary {
+  padding: 1.1rem 1.7689rem 1.1rem 1.8rem;
+  border-radius: 0.2rem;
+  background: #fff;
+  color: #444;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.79rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+header nav ul li .btn-primary:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.s-header {
+  text-align: center;
+  color: #fff;
+  margin-top: 27.5rem;
+}
+
+.s-header p {
+  color: rgba(255, 255, 255, 0.644);
+  font-size: 2rem;
+  line-height: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.s-header h1 {
+  max-width: 97.8rem;
+  margin: 0 auto 4.5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 6.5rem;
+}
+
+.s-header a {
+  padding: 1.7rem 2.9662rem 1.85rem 3rem;
+  border-radius: 0.4rem;
+  background: #4caf50;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.95rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.s-header a:hover {
+  background-color: #458146;
+}
+
+.s-solutions {
+  padding: 10rem;
+}
+
+.s-solutions .cards {
+  display: flex;
+  gap: 6rem;
+  justify-content: space-between;
+}
+
+.s-solutions .card {
+  max-width: 30.3rem;
+}
+
+.s-solutions .card .icon {
+  margin-bottom: 1.4rem;
+}
+
+.s-solutions .card .text h5 {
+  color: #303030;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.484rem;
+  margin-bottom: 1.4rem;
+}
+
+.s-solutions .card .text p {
+  color: #888;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.976rem; /* 186% */
+}
+
+.s-services {
+  text-align: center;
+  padding: 9rem 0;
+  background-color: #f8f8f8;
+}
+
+.s-services .all-services {
+  display: flex;
+  gap: 3rem;
+}
+
+.s-services h3 {
+  color: #303030;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 4.968rem;
+  margin-bottom: 1.8rem;
+}
+
+.s-services p {
+  color: #888;
+  font-size: 20px;
+  line-height: 3.72rem;
+  margin-bottom: 5.5rem;
+}
+
+.s-services .cards {
+  background: #fff;
+  max-width: 38.3rem;
+  height: 47rem;
+  text-align: left;
+}
+
+.s-services .card {
+  padding: 2.2rem;
+}
+
+.s-services .card h6 {
+  color: #303030;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 26.22px;
+  margin-bottom: 1rem;
+}
+
+.s-services .card p {
+  color: #888;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.76px; /* 186% */
+  margin: 0;
+}
+
+.s-services .card .saibamais {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.s-services .card .saibamais a {
+  color: #666;
+  font-size: 1.5rem;
+  line-height: 27.9px; 
+}
